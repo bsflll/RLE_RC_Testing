@@ -1,0 +1,36 @@
+# Towards Design Guidance of Reservoir Computing — An Empirical Study
+
+## Researcher: Christina Lee, Prof. Lizhong Zheng, Xiangxiang Xu
+
+## Abstract:
+Reservoir Computing (RC) has emerged as a versatile machine learning technique, finding applications in a wide range of domains, 
+e.g., Time Series Prediction, Pattern Recognition and Image Processing, Brain-Computer Interfaces (BCI). 
+Despite its various adoption, a critical aspect that has been largely overlooked is the algorithm's design, 
+particularly concerning the influence of parameters in different applications. 
+In this paper, we address this gap by conducting an extensive analysis of RC’s performance under multiple factors, 
+including activation functions, initialization techniques, parameter settings, and data types. 
+Our aim is to provide valuable guidance to algorithm designers who are considering the adoption of RC in their applications.
+
+To facilitate our investigation, we create a robust testing environment capable of evaluating RC performance under diverse parameter configurations. 
+Specifically, data is generated from a compact Echo State Network (ESN) model to provide an in-depth examination of how different activation functions 
+affect the reservoir's capabilities in handling nonlinear tasks. For instance, we compare common activation functions such as sigmoid, tanh, ReLU, 
+and their variants, aiming to uncover the most effective choices for capturing nonlinearities. 
+Throughout our study, we systematically explore the interplay between various activation functions and essential parameters, 
+including weight setting, hidden layer, reservoir spectral scaling, and input connectivity. By focusing on tasks with inherent nonlinearity, 
+we gain a deeper understanding of the strengths and limitations of each part of the algorithm, shedding light on their impact on RC's overall applicability.
+
+The insights derived from our analysis yield valuable contributions in RC algorithm design. 
+Researchers and practitioners can leverage our findings to select appropriate settings tailored to their specific tasks, 
+ultimately leading to improved RC models for real-world applications, 
+encouraging the broader adoption and exploration of this powerful machine learning paradigm.
+
+
+## Acknowledgement
+
+I express my sincere appreciation to Prof. Lizhong Zheng and Dr. Xiangxiang Xu my dedicated advisors, 
+whose unwavering encouragement, expertise, and mentorship have been instrumental throughout this research journey. 
+I extend my gratitude to MIT Research Laboratory of Electronics (RLE) and Research in Science & Engineering (RISE) 
+Internship track by Boston University, for providing the necessary resources. 
+Finally, I’d like to thank our families and friends for their unwavering support, understanding, and encouragement throughout the research process. 
+Their moral support and discussions greatly enriched the conceptualization and interpretation of results. 
+This research was supported in part by the National Science Foundation(NSF) under Award CNS- 2002908
