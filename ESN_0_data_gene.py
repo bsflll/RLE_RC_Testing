@@ -42,3 +42,17 @@ dl_test = DataLoader(ds_test, batch_size=batchsize) # do not shuffle.
 # Y_test
 X_test = X_in[N_train:]
 Y_test = Y_out[N_train:]
+
+
+### if you want to visualize input and output, include the following codes
+
+## input X_in
+# import matplotlib.pyplot as plt
+# for i in range(4):
+#    plt.figure()
+#    plt.plot(X_in[i],'b')
+
+## output Y_out
+#for i in range(4):
+#    plt.figure()
+#    plt.plot(Y_out[i],'b')
