@@ -22,3 +22,15 @@ plt.figure()
 plt.plot(impulse_response)
 plt.figure()
 plt.plot(np.abs(freq_response))
+
+
+### More visualization after having X_in and Y_out
+
+#for i in range(8):
+#    plt.subplot(1, 2, 1)
+#    plt.plot(np.abs(np.fft.fft(X_in[i].reshape(-1)))[1:])
+#for i in range(8):
+#    plt.figure()
+#    plt.subplot(1, 2, 2)
+#    plt.plot(np.abs(np.fft.fft(Y_out[i].reshape(-1)))[1:])
+
